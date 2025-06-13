@@ -12,6 +12,9 @@ namespace Kutuphane
 {
     public partial class Form1 : Form
     {
+        public static List<Kitap> kitaplar = new List<Kitap>();
+        public static List<Uye> uyeler = new List<Uye>();
+
         public Form1()
         {
             InitializeComponent();

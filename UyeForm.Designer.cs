@@ -218,9 +218,9 @@
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(226, 11);
+            this.listBox1.Location = new System.Drawing.Point(226, 0);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(360, 548);
+            this.listBox1.Size = new System.Drawing.Size(360, 564);
             this.listBox1.TabIndex = 5;
             // 
             // UyeForm

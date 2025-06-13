@@ -9,6 +9,6 @@ C:\Users\efe\source\repos\Kutuphane\obj\Debug\Kutuphane.csproj.GenerateResource.
 C:\Users\efe\source\repos\Kutuphane\obj\Debug\Kutuphane.csproj.CoreCompileInputs.cache
 C:\Users\efe\source\repos\Kutuphane\obj\Debug\Kutuphane.exe
 C:\Users\efe\source\repos\Kutuphane\obj\Debug\Kutuphane.pdb
-C:\Users\efe\source\repos\Kutuphane\obj\Debug\Kutuphane.exe.config
 C:\Users\efe\source\repos\Kutuphane\obj\Debug\Kutuphane.UyeForm.resources
 C:\Users\efe\source\repos\Kutuphane\obj\Debug\Kutuphane.OduncForm.resources
+C:\Users\efe\source\repos\Kutuphane\obj\Debug\Kutuphane.exe.config

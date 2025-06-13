@@ -26,14 +26,16 @@ namespace Kutuphane
 
         public void UyeleriYukle()
         {
-            if (File.Exists(uyeDosyaYolu))
+            listBox1.Items.Clear();
+            Form1.uyeler.Clear();
+            if (File.Exists("uyeler.txt"))
             {
-                string[] satirlar = File.ReadAllLines(uyeDosyaYolu);
-                foreach (string satir in satirlar)
+                var satirlar = File.ReadAllLines("uyeler.txt");
+                foreach (var satir in satirlar)
                 {
-                    Uye uye = Uye.Parse(satir);
-                    uyeListesi.Add(uye);
-                    listBox1.Items.Add(uye); // listBox’un ismi buysa
+                    var uye = Uye.Parse(satir);
+                    listBox1.Items.Add(uye);
+                    Form1.uyeler.Add(uye);
                 }
             }
         }
@@ -47,9 +49,9 @@ namespace Kutuphane
             string sehir = txtSehir.Text;
 
             Uye yeni = new Uye(ad, soyad, tel, sehir);
-            uyeListesi.Add(yeni);
             listBox1.Items.Add(yeni);
-            UyeleriKaydet();
+            Form1.uyeler.Add(yeni);
+            File.AppendAllLines("uyeler.txt", new[] { yeni.ToFileString() });
         }
 
         private void btnUyeSil_Click(object sender, EventArgs e)
@@ -81,7 +83,7 @@ namespace Kutuphane
 
         private void button2_Click(object sender, EventArgs e)
         {
-            OduncForm odunc = new OduncForm();
+            OduncForm odunc = new OduncForm(Form1.kitaplar, Form1.uyeler);
             odunc.Show();
             this.Hide();
         }

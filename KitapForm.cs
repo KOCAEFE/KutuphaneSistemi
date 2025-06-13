@@ -25,14 +25,16 @@ namespace Kutuphane
         }
         private void KitaplariYukle()
         {
-            if (File.Exists(kitapDosyaYolu))
+            listBox1.Items.Clear();
+            Form1.kitaplar.Clear();
+            if (File.Exists("kitaplar.txt"))
             {
-                string[] satirlar = File.ReadAllLines(kitapDosyaYolu);
-                foreach (string satir in satirlar)
+                var satirlar = File.ReadAllLines("kitaplar.txt");
+                foreach (var satir in satirlar)
                 {
-                    Kitap kitap = Kitap.Parse(satir);
-                    kitapListesi.Add(kitap);
-                    listBox1.Items.Add(kitap); // ListBox'un adı buysa
+                    var kitap = Kitap.Parse(satir);
+                    listBox1.Items.Add(kitap);
+                    Form1.kitaplar.Add(kitap);
                 }
             }
         }
@@ -45,9 +47,9 @@ namespace Kutuphane
             int sayfa = int.Parse(txtSayfaSayisi.Text);
 
             Kitap yeniKitap = new Kitap(yazar, kitapAdi, yayinEvi, sayfa);
-            kitapListesi.Add(yeniKitap);
             listBox1.Items.Add(yeniKitap);
-            KitaplariKaydet(); // dosyaya da yaz
+            Form1.kitaplar.Add(yeniKitap);
+            File.AppendAllLines("kitaplar.txt", new[] { yeniKitap.ToFileString() });
         }
 
         private void btnKitapSil_Click(object sender, EventArgs e)
@@ -76,7 +78,7 @@ namespace Kutuphane
 
         private void button2_Click(object sender, EventArgs e)
         {
-            OduncForm odunc = new OduncForm();
+            OduncForm odunc = new OduncForm(Form1.kitaplar, Form1.uyeler);
             odunc.Show();
             this.Hide();
         }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Kutuphane
 {
-    internal class Kitap
+    public class Kitap
     {
         public int kitapId { get; }
         private static int _sonrakiId = 1;
@@ -57,7 +57,7 @@ namespace Kutuphane
 
         public override string ToString()
         {
-            return $"{KitapAdi} ({Yazar}) - {YayinEvi} - {SayfaSayisi} syf";
+            return $"{KitapId} - {KitapAdi} ({Yazar}) - {YayinEvi} - {SayfaSayisi} syf";
         }
     }
 }

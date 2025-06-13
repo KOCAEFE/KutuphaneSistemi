@@ -3,44 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\efe\\source\\repos\\Kutuphane\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF2178AF-46CC-43C7-8D6A-A4849ED79274}|Kutuphane.csproj|c:\\users\\efe\\source\\repos\\kutuphane\\oduncform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF2178AF-46CC-43C7-8D6A-A4849ED79274}|Kutuphane.csproj|solutionrelative:oduncform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AF2178AF-46CC-43C7-8D6A-A4849ED79274}|Kutuphane.csproj|c:\\users\\efe\\source\\repos\\kutuphane\\oduncform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AF2178AF-46CC-43C7-8D6A-A4849ED79274}|Kutuphane.csproj|solutionrelative:oduncform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF2178AF-46CC-43C7-8D6A-A4849ED79274}|Kutuphane.csproj|c:\\users\\efe\\source\\repos\\kutuphane\\odunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF2178AF-46CC-43C7-8D6A-A4849ED79274}|Kutuphane.csproj|solutionrelative:odunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF2178AF-46CC-43C7-8D6A-A4849ED79274}|Kutuphane.csproj|c:\\users\\efe\\source\\repos\\kutuphane\\uye.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF2178AF-46CC-43C7-8D6A-A4849ED79274}|Kutuphane.csproj|solutionrelative:uye.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF2178AF-46CC-43C7-8D6A-A4849ED79274}|Kutuphane.csproj|c:\\users\\efe\\source\\repos\\kutuphane\\uyeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AF2178AF-46CC-43C7-8D6A-A4849ED79274}|Kutuphane.csproj|C:\\Users\\efe\\source\\repos\\Kutuphane\\uyeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF2178AF-46CC-43C7-8D6A-A4849ED79274}|Kutuphane.csproj|solutionrelative:uyeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF2178AF-46CC-43C7-8D6A-A4849ED79274}|Kutuphane.csproj|c:\\users\\efe\\source\\repos\\kutuphane\\uyeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{AF2178AF-46CC-43C7-8D6A-A4849ED79274}|Kutuphane.csproj|C:\\Users\\efe\\source\\repos\\Kutuphane\\uyeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AF2178AF-46CC-43C7-8D6A-A4849ED79274}|Kutuphane.csproj|solutionrelative:uyeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF2178AF-46CC-43C7-8D6A-A4849ED79274}|Kutuphane.csproj|c:\\users\\efe\\source\\repos\\kutuphane\\kitapform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF2178AF-46CC-43C7-8D6A-A4849ED79274}|Kutuphane.csproj|solutionrelative:kitapform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF2178AF-46CC-43C7-8D6A-A4849ED79274}|Kutuphane.csproj|c:\\users\\efe\\source\\repos\\kutuphane\\kitap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF2178AF-46CC-43C7-8D6A-A4849ED79274}|Kutuphane.csproj|solutionrelative:kitap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF2178AF-46CC-43C7-8D6A-A4849ED79274}|Kutuphane.csproj|c:\\users\\efe\\source\\repos\\kutuphane\\kitapform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{AF2178AF-46CC-43C7-8D6A-A4849ED79274}|Kutuphane.csproj|C:\\Users\\efe\\source\\repos\\Kutuphane\\kitapform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AF2178AF-46CC-43C7-8D6A-A4849ED79274}|Kutuphane.csproj|solutionrelative:kitapform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF2178AF-46CC-43C7-8D6A-A4849ED79274}|Kutuphane.csproj|c:\\users\\efe\\source\\repos\\kutuphane\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AF2178AF-46CC-43C7-8D6A-A4849ED79274}|Kutuphane.csproj|C:\\Users\\efe\\source\\repos\\Kutuphane\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF2178AF-46CC-43C7-8D6A-A4849ED79274}|Kutuphane.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF2178AF-46CC-43C7-8D6A-A4849ED79274}|Kutuphane.csproj|C:\\Users\\efe\\source\\repos\\Kutuphane\\kitap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF2178AF-46CC-43C7-8D6A-A4849ED79274}|Kutuphane.csproj|solutionrelative:kitap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF2178AF-46CC-43C7-8D6A-A4849ED79274}|Kutuphane.csproj|C:\\Users\\efe\\source\\repos\\Kutuphane\\odunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF2178AF-46CC-43C7-8D6A-A4849ED79274}|Kutuphane.csproj|solutionrelative:odunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF2178AF-46CC-43C7-8D6A-A4849ED79274}|Kutuphane.csproj|C:\\Users\\efe\\source\\repos\\Kutuphane\\kitapform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF2178AF-46CC-43C7-8D6A-A4849ED79274}|Kutuphane.csproj|solutionrelative:kitapform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF2178AF-46CC-43C7-8D6A-A4849ED79274}|Kutuphane.csproj|C:\\Users\\efe\\source\\repos\\Kutuphane\\oduncform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF2178AF-46CC-43C7-8D6A-A4849ED79274}|Kutuphane.csproj|solutionrelative:oduncform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF2178AF-46CC-43C7-8D6A-A4849ED79274}|Kutuphane.csproj|C:\\Users\\efe\\source\\repos\\Kutuphane\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF2178AF-46CC-43C7-8D6A-A4849ED79274}|Kutuphane.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF2178AF-46CC-43C7-8D6A-A4849ED79274}|Kutuphane.csproj|C:\\Users\\efe\\source\\repos\\Kutuphane\\uye.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF2178AF-46CC-43C7-8D6A-A4849ED79274}|Kutuphane.csproj|solutionrelative:uye.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,97 +62,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Odunc.cs",
-              "DocumentMoniker": "C:\\Users\\efe\\source\\repos\\Kutuphane\\Odunc.cs",
-              "RelativeDocumentMoniker": "Odunc.cs",
-              "ToolTip": "C:\\Users\\efe\\source\\repos\\Kutuphane\\Odunc.cs*",
-              "RelativeToolTip": "Odunc.cs*",
-              "ViewState": "AgIAABAAAAAAAAAAAAAUwDAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T08:29:37.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OduncForm.cs",
-              "DocumentMoniker": "C:\\Users\\efe\\source\\repos\\Kutuphane\\OduncForm.cs",
-              "RelativeDocumentMoniker": "OduncForm.cs",
-              "ToolTip": "C:\\Users\\efe\\source\\repos\\Kutuphane\\OduncForm.cs",
-              "RelativeToolTip": "OduncForm.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAiwDIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T08:17:26.693Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OduncForm.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\efe\\source\\repos\\Kutuphane\\OduncForm.cs",
-              "RelativeDocumentMoniker": "OduncForm.cs",
-              "ToolTip": "C:\\Users\\efe\\source\\repos\\Kutuphane\\OduncForm.cs [Tasar\u0131m]",
-              "RelativeToolTip": "OduncForm.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T08:15:30.083Z",
-              "EditorCaption": " [Tasar\u0131m]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Uye.cs",
-              "DocumentMoniker": "C:\\Users\\efe\\source\\repos\\Kutuphane\\Uye.cs",
-              "RelativeDocumentMoniker": "Uye.cs",
-              "ToolTip": "C:\\Users\\efe\\source\\repos\\Kutuphane\\Uye.cs",
-              "RelativeToolTip": "Uye.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAcwDsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T06:02:14.761Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Kitap.cs",
               "DocumentMoniker": "C:\\Users\\efe\\source\\repos\\Kutuphane\\Kitap.cs",
               "RelativeDocumentMoniker": "Kitap.cs",
               "ToolTip": "C:\\Users\\efe\\source\\repos\\Kutuphane\\Kitap.cs",
               "RelativeToolTip": "Kitap.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-13T05:53:58.232Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "KitapForm.cs",
-              "DocumentMoniker": "C:\\Users\\efe\\source\\repos\\Kutuphane\\KitapForm.cs",
-              "RelativeDocumentMoniker": "KitapForm.cs",
-              "ToolTip": "C:\\Users\\efe\\source\\repos\\Kutuphane\\KitapForm.cs",
-              "RelativeToolTip": "KitapForm.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAADwvyYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T05:49:19.722Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "UyeForm.cs",
               "DocumentMoniker": "C:\\Users\\efe\\source\\repos\\Kutuphane\\UyeForm.cs",
               "RelativeDocumentMoniker": "UyeForm.cs",
               "ToolTip": "C:\\Users\\efe\\source\\repos\\Kutuphane\\UyeForm.cs",
               "RelativeToolTip": "UyeForm.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAqwFUAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-13T05:49:07.292Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\efe\\source\\repos\\Kutuphane\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\efe\\source\\repos\\Kutuphane\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T05:45:32.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Odunc.cs",
+              "DocumentMoniker": "C:\\Users\\efe\\source\\repos\\Kutuphane\\Odunc.cs",
+              "RelativeDocumentMoniker": "Odunc.cs",
+              "ToolTip": "C:\\Users\\efe\\source\\repos\\Kutuphane\\Odunc.cs",
+              "RelativeToolTip": "Odunc.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA2wBkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T08:29:37.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "UyeForm.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\efe\\source\\repos\\Kutuphane\\UyeForm.cs",
               "RelativeDocumentMoniker": "UyeForm.cs",
@@ -160,20 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\efe\\source\\repos\\Kutuphane\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\efe\\source\\repos\\Kutuphane\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T05:45:32.72Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "KitapForm.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\efe\\source\\repos\\Kutuphane\\KitapForm.cs",
               "RelativeDocumentMoniker": "KitapForm.cs",
@@ -182,6 +135,68 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-13T05:40:24.182Z",
               "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OduncForm.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\efe\\source\\repos\\Kutuphane\\OduncForm.cs",
+              "RelativeDocumentMoniker": "OduncForm.cs",
+              "ToolTip": "C:\\Users\\efe\\source\\repos\\Kutuphane\\OduncForm.cs [Tasar\u0131m]*",
+              "RelativeToolTip": "OduncForm.cs [Tasar\u0131m]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T08:15:30.083Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Uye.cs",
+              "DocumentMoniker": "C:\\Users\\efe\\source\\repos\\Kutuphane\\Uye.cs",
+              "RelativeDocumentMoniker": "Uye.cs",
+              "ToolTip": "C:\\Users\\efe\\source\\repos\\Kutuphane\\Uye.cs",
+              "RelativeToolTip": "Uye.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAcwDsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T06:02:14.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "KitapForm.cs",
+              "DocumentMoniker": "C:\\Users\\efe\\source\\repos\\Kutuphane\\KitapForm.cs",
+              "RelativeDocumentMoniker": "KitapForm.cs",
+              "ToolTip": "C:\\Users\\efe\\source\\repos\\Kutuphane\\KitapForm.cs",
+              "RelativeToolTip": "KitapForm.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAuwFAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T05:49:19.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\efe\\source\\repos\\Kutuphane\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\efe\\source\\repos\\Kutuphane\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T08:50:30.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OduncForm.cs",
+              "DocumentMoniker": "C:\\Users\\efe\\source\\repos\\Kutuphane\\OduncForm.cs",
+              "RelativeDocumentMoniker": "OduncForm.cs",
+              "ToolTip": "C:\\Users\\efe\\source\\repos\\Kutuphane\\OduncForm.cs*",
+              "RelativeToolTip": "OduncForm.cs*",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwBgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T08:17:26.693Z",
+              "EditorCaption": ""
             }
           ]
         }

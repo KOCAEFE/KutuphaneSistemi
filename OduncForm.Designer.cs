@@ -30,22 +30,22 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OduncForm));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.listBox1 = new System.Windows.Forms.ListBox();
             this.btnMenuSales = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.button3 = new System.Windows.Forms.Button();
             this.listBox3 = new System.Windows.Forms.ListBox();
+            this.btnIadeEt = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.DarkGray;
-            this.panel1.Controls.Add(this.listBox1);
             this.panel1.Controls.Add(this.btnMenuSales);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button1);
@@ -53,15 +53,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(234, 552);
             this.panel1.TabIndex = 5;
-            // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(229, 3);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(273, 548);
-            this.listBox1.TabIndex = 6;
             // 
             // btnMenuSales
             // 
@@ -105,36 +96,45 @@
             this.button1.Text = "       Üyeler";
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 16;
+            this.listBox1.Location = new System.Drawing.Point(238, 12);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(234, 516);
+            this.listBox1.TabIndex = 6;
+            // 
             // listBox2
             // 
             this.listBox2.FormattingEnabled = true;
             this.listBox2.ItemHeight = 16;
-            this.listBox2.Location = new System.Drawing.Point(505, 0);
+            this.listBox2.Location = new System.Drawing.Point(478, 12);
             this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(325, 548);
+            this.listBox2.Size = new System.Drawing.Size(280, 516);
             this.listBox2.TabIndex = 6;
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(1035, 22);
+            this.dateTimePicker1.Location = new System.Drawing.Point(1197, 34);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 22);
+            this.dateTimePicker1.Size = new System.Drawing.Size(161, 22);
             this.dateTimePicker1.TabIndex = 7;
             // 
             // dateTimePicker2
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(1035, 158);
+            this.dateTimePicker2.Location = new System.Drawing.Point(1197, 99);
             this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(200, 22);
+            this.dateTimePicker2.Size = new System.Drawing.Size(161, 22);
             this.dateTimePicker2.TabIndex = 8;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(1062, 228);
+            this.button3.Location = new System.Drawing.Point(1197, 157);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(161, 23);
             this.button3.TabIndex = 9;
-            this.button3.Text = "button3";
+            this.button3.Text = "Odunc ver";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -142,16 +142,28 @@
             // 
             this.listBox3.FormattingEnabled = true;
             this.listBox3.ItemHeight = 16;
-            this.listBox3.Location = new System.Drawing.Point(836, 12);
+            this.listBox3.Location = new System.Drawing.Point(764, 12);
             this.listBox3.Name = "listBox3";
-            this.listBox3.Size = new System.Drawing.Size(164, 452);
+            this.listBox3.Size = new System.Drawing.Size(363, 516);
             this.listBox3.TabIndex = 10;
+            // 
+            // btnIadeEt
+            // 
+            this.btnIadeEt.Location = new System.Drawing.Point(1197, 211);
+            this.btnIadeEt.Name = "btnIadeEt";
+            this.btnIadeEt.Size = new System.Drawing.Size(161, 30);
+            this.btnIadeEt.TabIndex = 8;
+            this.btnIadeEt.Text = "Seçili Kitabı İade Et";
+            this.btnIadeEt.UseVisualStyleBackColor = true;
+            this.btnIadeEt.Click += new System.EventHandler(this.btnIadeEt_Click);
             // 
             // OduncForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1247, 550);
+            this.ClientSize = new System.Drawing.Size(1370, 546);
+            this.Controls.Add(this.btnIadeEt);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.listBox3);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.dateTimePicker2);
@@ -179,5 +191,6 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.ListBox listBox3;
+        private System.Windows.Forms.Button btnIadeEt;
     }
 }
