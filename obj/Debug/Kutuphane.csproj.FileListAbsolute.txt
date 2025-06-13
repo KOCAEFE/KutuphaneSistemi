@@ -1,0 +1,13 @@
+C:\Users\efe\source\repos\Kutuphane\bin\Debug\Kutuphane.exe.config
+C:\Users\efe\source\repos\Kutuphane\bin\Debug\Kutuphane.exe
+C:\Users\efe\source\repos\Kutuphane\bin\Debug\Kutuphane.pdb
+C:\Users\efe\source\repos\Kutuphane\obj\Debug\Kutuphane.csproj.AssemblyReference.cache
+C:\Users\efe\source\repos\Kutuphane\obj\Debug\Kutuphane.Form1.resources
+C:\Users\efe\source\repos\Kutuphane\obj\Debug\Kutuphane.KitapForm.resources
+C:\Users\efe\source\repos\Kutuphane\obj\Debug\Kutuphane.Properties.Resources.resources
+C:\Users\efe\source\repos\Kutuphane\obj\Debug\Kutuphane.csproj.GenerateResource.cache
+C:\Users\efe\source\repos\Kutuphane\obj\Debug\Kutuphane.csproj.CoreCompileInputs.cache
+C:\Users\efe\source\repos\Kutuphane\obj\Debug\Kutuphane.exe
+C:\Users\efe\source\repos\Kutuphane\obj\Debug\Kutuphane.pdb
+C:\Users\efe\source\repos\Kutuphane\obj\Debug\Kutuphane.exe.config
+C:\Users\efe\source\repos\Kutuphane\obj\Debug\Kutuphane.UyeForm.resources
