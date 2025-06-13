@@ -40,6 +40,9 @@
             this.button3 = new System.Windows.Forms.Button();
             this.listBox3 = new System.Windows.Forms.ListBox();
             this.btnIadeEt = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,6 +70,7 @@
             this.btnMenuSales.TabIndex = 4;
             this.btnMenuSales.Text = "       Kitaplar";
             this.btnMenuSales.UseVisualStyleBackColor = true;
+            this.btnMenuSales.Click += new System.EventHandler(this.btnMenuSales_Click);
             // 
             // button2
             // 
@@ -95,42 +99,43 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "       Üyeler";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(238, 12);
+            this.listBox1.Location = new System.Drawing.Point(238, 28);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(234, 516);
+            this.listBox1.Size = new System.Drawing.Size(206, 516);
             this.listBox1.TabIndex = 6;
             // 
             // listBox2
             // 
             this.listBox2.FormattingEnabled = true;
             this.listBox2.ItemHeight = 16;
-            this.listBox2.Location = new System.Drawing.Point(478, 12);
+            this.listBox2.Location = new System.Drawing.Point(463, 28);
             this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(280, 516);
+            this.listBox2.Size = new System.Drawing.Size(243, 516);
             this.listBox2.TabIndex = 6;
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(1197, 34);
+            this.dateTimePicker1.Location = new System.Drawing.Point(1296, 34);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(161, 22);
             this.dateTimePicker1.TabIndex = 7;
             // 
             // dateTimePicker2
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(1197, 99);
+            this.dateTimePicker2.Location = new System.Drawing.Point(1296, 99);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(161, 22);
             this.dateTimePicker2.TabIndex = 8;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(1197, 157);
+            this.button3.Location = new System.Drawing.Point(1296, 157);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(161, 23);
             this.button3.TabIndex = 9;
@@ -142,14 +147,14 @@
             // 
             this.listBox3.FormattingEnabled = true;
             this.listBox3.ItemHeight = 16;
-            this.listBox3.Location = new System.Drawing.Point(764, 12);
+            this.listBox3.Location = new System.Drawing.Point(712, 28);
             this.listBox3.Name = "listBox3";
-            this.listBox3.Size = new System.Drawing.Size(363, 516);
+            this.listBox3.Size = new System.Drawing.Size(578, 516);
             this.listBox3.TabIndex = 10;
             // 
             // btnIadeEt
             // 
-            this.btnIadeEt.Location = new System.Drawing.Point(1197, 211);
+            this.btnIadeEt.Location = new System.Drawing.Point(1296, 211);
             this.btnIadeEt.Name = "btnIadeEt";
             this.btnIadeEt.Size = new System.Drawing.Size(161, 30);
             this.btnIadeEt.TabIndex = 8;
@@ -157,11 +162,44 @@
             this.btnIadeEt.UseVisualStyleBackColor = true;
             this.btnIadeEt.Click += new System.EventHandler(this.btnIadeEt_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(282, 5);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(66, 20);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "Kitaplar";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.Location = new System.Drawing.Point(519, 5);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(57, 20);
+            this.label2.TabIndex = 12;
+            this.label2.Text = "Uyeler";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.Location = new System.Drawing.Point(903, 5);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(126, 20);
+            this.label3.TabIndex = 13;
+            this.label3.Text = "Odünç İşlemleri";
+            // 
             // OduncForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1370, 546);
+            this.ClientSize = new System.Drawing.Size(1469, 546);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnIadeEt);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.listBox3);
@@ -176,6 +214,7 @@
             this.Load += new System.EventHandler(this.OduncForm_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -192,5 +231,8 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.ListBox listBox3;
         private System.Windows.Forms.Button btnIadeEt;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }

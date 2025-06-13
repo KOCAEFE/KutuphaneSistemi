@@ -17,12 +17,39 @@ namespace Kutuphane
         private List<Uye> uyeler;
         private List<Odunc> oduncler = new List<Odunc>();
         private const string oduncDosyaYolu = "oduncler.txt";
+        private const decimal GUNLUK_UCRET = 1.0m; // Günlük ücret 1 TL
 
         public OduncForm(List<Kitap> kitaplar, List<Uye> uyeler)
         {
             InitializeComponent();
             this.kitaplar = kitaplar;
             this.uyeler = uyeler;
+            listBox3.DrawMode = DrawMode.OwnerDrawFixed;
+            listBox3.DrawItem += ListBox3_DrawItem;
+        }
+
+        private void ListBox3_DrawItem(object sender, DrawItemEventArgs e)
+        {
+            if (e.Index < 0) return;
+
+            e.DrawBackground();
+            if (listBox3.Items[e.Index] is Odunc odunc)
+            {
+                string text = odunc.ToString();
+                if (odunc.IadeTarihi < DateTime.Now)
+                {
+                    // Gecikmiş kitaplar için ücret hesapla
+                    int gecikmeGunu = (DateTime.Now - odunc.IadeTarihi).Days;
+                    decimal ucret = gecikmeGunu * GUNLUK_UCRET;
+                    text += $" [Gecikme: {gecikmeGunu} gün, Ücret: {ucret:C}]";
+                    e.Graphics.DrawString(text, e.Font, Brushes.Red, e.Bounds);
+                }
+                else
+                {
+                    e.Graphics.DrawString(text, e.Font, Brushes.Black, e.Bounds);
+                }
+            }
+            e.DrawFocusRectangle();
         }
 
         private void OduncForm_Load(object sender, EventArgs e)
@@ -115,6 +142,17 @@ namespace Kutuphane
         {
             if (listBox3.SelectedItem is Odunc seciliOdunc)
             {
+                if (seciliOdunc.IadeTarihi < DateTime.Now)
+                {
+                    int gecikmeGunu = (DateTime.Now - seciliOdunc.IadeTarihi).Days;
+                    decimal ucret = gecikmeGunu * GUNLUK_UCRET;
+                    var result = MessageBox.Show($"Bu kitap {gecikmeGunu} gün gecikmiş. Ödenmesi gereken ücret: {ucret:C}\nİade işlemine devam etmek istiyor musunuz?", 
+                        "Gecikme Ücreti", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                    
+                    if (result != DialogResult.Yes)
+                        return;
+                }
+
                 // Ödünç listesinden kaldır
                 oduncler.Remove(seciliOdunc);
                 listBox3.Items.Remove(seciliOdunc);
@@ -131,6 +169,20 @@ namespace Kutuphane
             {
                 MessageBox.Show("Lütfen iade edilecek kitabı seçin!", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            UyeForm uye = new UyeForm();
+            uye.Show();
+            this.Hide();
+        }
+
+        private void btnMenuSales_Click(object sender, EventArgs e)
+        {
+            KitapForm kitap = new KitapForm();
+            kitap.Show();
+            this.Hide();
         }
     }
 }
