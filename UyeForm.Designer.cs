@@ -64,7 +64,7 @@
             this.groupBox1.Controls.Add(this.lblYazar);
             this.groupBox1.Location = new System.Drawing.Point(592, 3);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(314, 561);
+            this.groupBox1.Size = new System.Drawing.Size(315, 561);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
@@ -77,6 +77,7 @@
             this.btnUyeSil.TabIndex = 9;
             this.btnUyeSil.Text = "Sil";
             this.btnUyeSil.UseVisualStyleBackColor = true;
+            this.btnUyeSil.Click += new System.EventHandler(this.btnUyeSil_Click);
             // 
             // btnUyeKaydet
             // 
@@ -101,7 +102,7 @@
             this.lblYayinevi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblYayinevi.Location = new System.Drawing.Point(6, 240);
             this.lblYayinevi.Name = "lblYayinevi";
-            this.lblYayinevi.Size = new System.Drawing.Size(60, 25);
+            this.lblYayinevi.Size = new System.Drawing.Size(48, 20);
             this.lblYayinevi.TabIndex = 6;
             this.lblYayinevi.Text = "Sehir";
             // 
@@ -118,7 +119,7 @@
             this.lblSayfaSayisi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblSayfaSayisi.Location = new System.Drawing.Point(6, 179);
             this.lblSayfaSayisi.Name = "lblSayfaSayisi";
-            this.lblSayfaSayisi.Size = new System.Drawing.Size(50, 25);
+            this.lblSayfaSayisi.Size = new System.Drawing.Size(40, 20);
             this.lblSayfaSayisi.TabIndex = 4;
             this.lblSayfaSayisi.Text = "TEL";
             // 
@@ -135,7 +136,7 @@
             this.lblAd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblAd.Location = new System.Drawing.Point(6, 113);
             this.lblAd.Name = "lblAd";
-            this.lblAd.Size = new System.Drawing.Size(84, 25);
+            this.lblAd.Size = new System.Drawing.Size(67, 20);
             this.lblAd.TabIndex = 2;
             this.lblAd.Text = "SOYAD";
             // 
@@ -153,7 +154,7 @@
             this.lblYazar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblYazar.Location = new System.Drawing.Point(6, 43);
             this.lblYazar.Name = "lblYazar";
-            this.lblYazar.Size = new System.Drawing.Size(41, 25);
+            this.lblYazar.Size = new System.Drawing.Size(33, 20);
             this.lblYazar.TabIndex = 0;
             this.lblYazar.Text = "AD";
             // 
@@ -181,6 +182,7 @@
             this.btnMenuSales.TabIndex = 4;
             this.btnMenuSales.Text = "       Kitaplar";
             this.btnMenuSales.UseVisualStyleBackColor = true;
+            this.btnMenuSales.Click += new System.EventHandler(this.btnMenuSales_Click);
             // 
             // button2
             // 
@@ -189,12 +191,13 @@
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(12, 374);
+            this.button2.Location = new System.Drawing.Point(13, 345);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(188, 71);
             this.button2.TabIndex = 3;
             this.button2.Text = "       Odünç";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -203,33 +206,35 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(12, 211);
+            this.button1.Location = new System.Drawing.Point(13, 192);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(188, 71);
             this.button1.TabIndex = 2;
             this.button1.Text = "       Üyeler";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(233, 11);
+            this.listBox1.Location = new System.Drawing.Point(226, 11);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(353, 548);
+            this.listBox1.Size = new System.Drawing.Size(360, 548);
             this.listBox1.TabIndex = 5;
             // 
             // UyeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(727, 452);
+            this.ClientSize = new System.Drawing.Size(906, 568);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "UyeForm";
             this.Text = "UyeForm";
+            this.Load += new System.EventHandler(this.UyeForm_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.panel1.ResumeLayout(false);

@@ -11,3 +11,4 @@ C:\Users\efe\source\repos\Kutuphane\obj\Debug\Kutuphane.exe
 C:\Users\efe\source\repos\Kutuphane\obj\Debug\Kutuphane.pdb
 C:\Users\efe\source\repos\Kutuphane\obj\Debug\Kutuphane.exe.config
 C:\Users\efe\source\repos\Kutuphane\obj\Debug\Kutuphane.UyeForm.resources
+C:\Users\efe\source\repos\Kutuphane\obj\Debug\Kutuphane.OduncForm.resources

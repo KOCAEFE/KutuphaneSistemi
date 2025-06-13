@@ -42,9 +42,9 @@
             this.lblYayinevi = new System.Windows.Forms.Label();
             this.txtYayinevi = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnKitapSil = new System.Windows.Forms.Button();
             this.btnKitapKaydet = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
-            this.btnKitapSil = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -73,6 +73,7 @@
             this.btnMenuSales.TabIndex = 4;
             this.btnMenuSales.Text = "       Kitaplar";
             this.btnMenuSales.UseVisualStyleBackColor = true;
+            this.btnMenuSales.Click += new System.EventHandler(this.btnMenuSales_Click);
             // 
             // button2
             // 
@@ -81,12 +82,13 @@
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(12, 374);
+            this.button2.Location = new System.Drawing.Point(12, 372);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(188, 71);
             this.button2.TabIndex = 3;
             this.button2.Text = "       Odünç";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -101,6 +103,7 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "       Üyeler";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // lblYazar
             // 
@@ -191,6 +194,16 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
             // 
+            // btnKitapSil
+            // 
+            this.btnKitapSil.Location = new System.Drawing.Point(10, 312);
+            this.btnKitapSil.Name = "btnKitapSil";
+            this.btnKitapSil.Size = new System.Drawing.Size(127, 38);
+            this.btnKitapSil.TabIndex = 9;
+            this.btnKitapSil.Text = "Sil";
+            this.btnKitapSil.UseVisualStyleBackColor = true;
+            this.btnKitapSil.Click += new System.EventHandler(this.btnKitapSil_Click);
+            // 
             // btnKitapKaydet
             // 
             this.btnKitapKaydet.Location = new System.Drawing.Point(170, 312);
@@ -205,21 +218,11 @@
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(221, 5);
+            this.listBox1.Location = new System.Drawing.Point(302, 5);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(511, 516);
+            this.listBox1.Size = new System.Drawing.Size(430, 516);
             this.listBox1.TabIndex = 3;
             this.listBox1.UseWaitCursor = true;
-            // 
-            // btnKitapSil
-            // 
-            this.btnKitapSil.Location = new System.Drawing.Point(10, 312);
-            this.btnKitapSil.Name = "btnKitapSil";
-            this.btnKitapSil.Size = new System.Drawing.Size(127, 38);
-            this.btnKitapSil.TabIndex = 9;
-            this.btnKitapSil.Text = "Sil";
-            this.btnKitapSil.UseVisualStyleBackColor = true;
-            this.btnKitapSil.Click += new System.EventHandler(this.btnKitapSil_Click);
             // 
             // KitapForm
             // 
@@ -232,6 +235,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "KitapForm";
             this.Text = "KitapForm";
+            this.Load += new System.EventHandler(this.KitapForm_Load);
             this.panel1.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
